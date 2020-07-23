@@ -1,70 +1,125 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Naseif Aldasouki's Profile</title>
-  </head>
-  
-  <body>
-    <div>
-      <header>
-          <h1>Welcome to Naseif Aldasouki's Profile</h1>
-          <p></p>
-          
-        <nav>
-            <ul>
-              <li><a href='#'>Home</a></li>
-              <li><a href='#about'>About</a></li> 
-              <li><a href='#projects'>Projects</a></li> 
-              <li><a href='#contact'>Contact</a></li> 
-            </ul>
-        </nav>
-        </header>
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Naseif Aldasouki's Profile</title>
+</head>
+
+<body>
+  <div>
+    <header id="header">
+
+      <nav>
+        <ul>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#contact'>Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1>Welcome to Naseif Aldasouki's Profile</h1>
       
-      <div>
-       
-      </div>
-    
-      <main>
-        <section id="about">
-         <h2>About me</h2>
-          <p>Ich bin ein syrischer Entwickler und lebe zur Zeit in Berlin, Deutschland!</p>
-          <p>Diese Webseite zählt als mein zweites Projekt nachdem ich JavaScript und HTML gelernt habe.</p>
-          <p>Ich habe große Interesse an Programmiersprachen und ich strebe nach, ein sehr guter Softwareentwickler zu werden! </p>
-        </section>
-        
-        <section id="projects">
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About me</h2>
+        <div class="profile-picture">
+          <img src="img/Bewerbungsfoto.jpg" alt="Bewerbungsfoto">
+        </div>
+        <p>Ich bin ein syrischer Entwickler und lebe zur Zeit in Berlin, Deutschland!</p>
+        <p>Diese Webseite zählt als mein zweites Projekt nachdem ich JavaScript und HTML gelernt habe.</p>
+        <p>Ich habe große Interesse an Programmiersprachen und ich strebe nach, ein sehr guter Softwareentwickler zu
+          werden! </p>
+
+        <div class="boxcontainer">
+
+
+
+          <div class="boxcontainer__half">
+
+            <div class="box box-hobbies"><br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h2>Hobbies</h2>
+              <p>Meine Hobbys sind:</p>
+              <div class="tagcontainer">
+                <span>Schwimmen</span> <span>Programmieren</span> <span>Reisen</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="boxcontainer__half">
+
+            <div class="box box-knowledge"><br>
+
+              <h2>Kenntnisse</h2>
+
+              <p>Ich habe Kenntnisse in folgenden Programmieresprachen:</p>
+
+              <div class="tagcontainer">
+                <span>Javascript</span> <span>HTML</span> <span>CSS</span>
+              </div>
+              <br>
+              <br>
+              <br>
+              <p>Ich intressiere mich auch für folgende Programmieresprachen:</p>
+              <div class="tagcontainer">
+                <span>PHP</span> <span>C#</span> <span>Python</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section id="projects">
         <h2>My Projects</h2>
-            
-          <article>
-              <header>
-              <h3>Protokoll Hilfsanwendung</h3>
-              </header>
-              <p>Mein erstes Projekt war, eine Unterstützungsanwendung für die Assistenz der Geschäftsführung der Mahr EDV GmbH zu entwicklen</p>
-              <p>Es ging darum, eine Webseite zu erstellen, die Fragen stellt und dann die Antworten in einer Tabelle zu Kategorisieren</p>
-              <p>Die Screenshots unten zeigen, wie die Anwendung funktioniert!. Sie können auch das Projet auf mein <a href="https://naseif.github.io/protokoll.github.io/" target="_blank">Github</a> betrachten</p>
-            
-          </article>
-        
-        </section>
-          
-          <section id="contact">
-           <h2>Contact</h2>
-          
-           <a href="https://github.com/naseif" target="_blank">Github</a><br>
-           <strong>E-Mail:</strong> aldasoukinaseif@gmail.com<br>
-           <a href="https://t.me/D2M1337" target="_blank">Telegram</a>
 
-          </section>
-      </main>
-        
-      
-      <footer>
-        <p><small>&copy;2020 Naseif Aldasouki, My Profile</small></p>
-      </footer>
-      </div>
-   </body>
+        <article>
+          <header>
+            <h3>Protokoll Hilfsanwendung</h3>
+          </header>
+          <p>Mein erstes Projekt war, eine Unterstützungsanwendung für die Assistenz der Geschäftsführung der Mahr EDV
+            GmbH zu entwicklen</p>
+          <p>Es ging darum, eine Webseite zu erstellen, die Fragen stellt und dann die Antworten in einer Tabelle zu
+            Kategorisieren</p>
+          <p>Die Screenshots unten zeigen, wie die Anwendung funktioniert!. Sie können auch das Projet auf mein <a
+              href="https://naseif.github.io/protokoll.github.io/" target="_blank">Github</a> betrachten</p>
+          <figure>
+            <img src="img/Ergebnis.jpg">
+
+            <figcaption>
+              Ergebnis
+            </figcaption>
+
+          </figure>
+
+        </article>
+
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <a href="https://github.com/naseif" target="_blank">Github</a><br>
+        <strong>E-Mail:</strong> aldasoukinaseif@gmail.com<br>
+        <a href="https://t.me/D2M1337" target="_blank">Telegram</a>
+
+      </section>
+    </main>
+
+
+    <footer>
+      <p><small>&copy;2020 Naseif Aldasouki, My Profile</small></p>
+    </footer>
+  </div>
+</body>
+
 </html>
-
-
-
-    
